@@ -105,13 +105,13 @@ body {
     border-radius: 5px;
 }
 
-@media (max-width: 850px) {
+@media only screen and (max-width: 850px) {
     .container .pokemon {
         width: 49%;
     }
 }
 
-@media (max-width: 450px) {
+@media only screen and (max-width: 500px) {
     .container .pokemon__attacks, .container .pokemon__meta {
         flex-wrap: wrap;
     }
